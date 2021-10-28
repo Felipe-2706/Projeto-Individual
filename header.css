@@ -1,0 +1,13 @@
+.body {
+    font-family:Lato;
+}
+
+
+.navigation {
+    background-color:#E0E0E0 ;
+    display: flex;
+    border: solid 2px black;
+    justify-content: space-between;
+    
+}
+

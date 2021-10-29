@@ -6,8 +6,22 @@
 .navigation {
     background-color:#E0E0E0 ;
     display: flex;
-    border: solid 2px black;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
+.imagem {
+    margin-left: 200px;
+    width: 20%;        
+}
+
+.tema{
+    width: 100% ;
+    margin-right: 300px;
+}
+
+.menu-bloco{
+    width: 100%;
+    margin-left: 50px;
+
+}

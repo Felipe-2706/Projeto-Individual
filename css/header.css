@@ -6,8 +6,9 @@
 .navigation {
     background-color:#E0E0E0 ;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: row;
 }
 
 .imagem {
@@ -22,6 +23,6 @@
 
 .menu-bloco{
     width: 100%;
-    margin-left: 50px;
-
-}
+    margin-left: 227px;
+}    
+    

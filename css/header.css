@@ -17,7 +17,12 @@
 .imagem {
     display: flex;
     align-items: center; 
+    margin-left: 200px;
     
+}
+
+.menu-bloco{
+    margin-right: 200px;
 }
 
 .menu-bloco ul{
@@ -27,7 +32,14 @@
     border-style:none;
     background-color: #FFFFFF;
     list-style-type: none;
+    height: 40px;
+    align-items: center;
     }
+
+    .menu-bloco ul li{
+    margin-left: 10px;
+    }    
+
 
 .block-1 {
     width: 400px;

@@ -13,39 +13,44 @@
 <body>
     <header class="navigation">
         <div class="imagem">
-        <img src="./img/Ellipse 13.png"><span>Controle Financeiro</span>
+        <img src="./img/Ellipse 13.png"><span style="font-size: 20px;">Controle Financeiro</span>
         </div>
         <div class="menu-bloco">
         <ul>
             <li>Cadastro de Transações</li>
-            <li>|</li>          
-            <li>Limpar Dados</li>
+            <li style="color: #8d8b8b;">|</li>          
+            <li style="margin-right: 8px;">Limpar Dados</li>
         </ul>
         </div>          
         
     </header>
     <div class="transactions">
         <form class="block-1">
-            <h4>Nova Transação</h4>
+            <h3 style="text-align: center;">Nova Transação</h3>
+        <div class="conteudo-block1">
             <label for="text1">Tipo de Transação</label>
             <br>
-            <input type="text" name="tipodetransacao"  id="text1"
-            size="30" placeholder="Digite seu nome aqui">
+            <select id="transacao">
+                <option selected disabled value="">Nenhuma transação cadastrada</option>
+                <option>Compra</option>
+                <option>Venda</option>
+            </select>
             <br>
-            <label for="text1">Nome da Mercadoria</label>
+            <label for="text2">Nome da Mercadoria</label>
             <br>
-            <input type="text" name="Nome"  id="text1"
+            <input type="text" name="mercadoria"  id="text2"
             size="30" placeholder="Input">
             <br>
-            <label for="text1">Valor</label>
+            <label for="text3">Valor</label>
             <br>
-            <input type="text" name="Nome"  id="text1"
-            size="30" placeholder="Digite seu nome aqui">
+            <input type="text" name="valor"  id="text3"
+            size="30" placeholder="R$ 0,00">
             <br>
-            <input type="submit"    value="Adicionar Transação">
+            <input type="submit" value="Adicionar Transação" style="background-color: #333333;">
+        </div>
         </form>
         <div class="block-2">
-            <h4>Extrato de Transações</h4>
+            <h3 style="text-align: center;">Extrato de Transações</h3>
         </div>
     </div>
     

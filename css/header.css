@@ -52,7 +52,6 @@
 .block-2 {
     width: 680px;
     height: 281px;
-    border: solid;
     margin-left: 20px   ;
 }
 
@@ -76,12 +75,7 @@
     margin-right: 15px;
     margin-top: 21px;
     border-radius: 4px;
-    font-style:
-}
+    font-weight: bold;
+    border-width: 50px;
 
-.block-2{
-    display: flex;
-    justify-content: space-between;
 }
-
-    

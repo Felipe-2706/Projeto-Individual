@@ -34,11 +34,17 @@
     list-style-type: none;
     height: 40px;
     align-items: center;
-    }
+}
 
-    .menu-bloco ul li{
-    margin-left: 10px;
-    }    
+.menu-bloco ul li{
+margin-left: 10px;
+}
+
+
+.menu-bloco ul li:hover {
+    background: black;
+    color: white;
+}    
 
 
 .block-1 {
@@ -47,6 +53,11 @@
     border: 1px solid;
     border-color: #8d8b8b;
     border-radius: 4px;
+}
+
+#transacao {
+    height: 32px;
+    top: 25px;
 }
 
 .block-2 {
